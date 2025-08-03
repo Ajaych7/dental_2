@@ -97,7 +97,7 @@ nav ul li a:hover {
 .hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url('0.jpg') center/cover;
-    height: 80vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     color: white;
@@ -178,17 +178,25 @@ nav ul li a:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-.star-rating {
-  color: #FFD700;
-  font-size: 24px;
+.stars {
+    color: #FFD700; /* Gold color */
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 3px; /* Adds space between stars */
 }
 
-.star-rating span {
-  color: #333;
-  font-size: 16px;
-  margin-left: 10px;
-}
+/* .stars::before {
+    content: "★★★★★"; /* Solid stars */
+    /* position: relative;
+} */
 
+.stars::after {
+    content: "★★★★★"; /* Outline stars */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(0,0,0,0.1); /* Light gray for contrast */
+}
 /* Doctors Section */
 .doctors-grid {
     display: grid;
@@ -344,5 +352,3 @@ footer {
         flex-direction: column;
     }
 }
-
-
