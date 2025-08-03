@@ -185,7 +185,10 @@ nav ul li a:hover {
     letter-spacing: 3px; /* Adds space between stars */
 }
 
-
+/* .stars::before {
+    content: "★★★★★"; /* Solid stars */
+    /* position: relative;
+} */
 
 .stars::after {
     content: "★★★★★"; /* Outline stars */
