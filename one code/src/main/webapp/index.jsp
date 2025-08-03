@@ -6,28 +6,22 @@
     <title>SmileCare Dental Clinic</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div class="loader-container">
-        <div class="crown-loader"></div>
-        <div class="loader-text">Creating Your Perfect Smile...</div>
-    </div>
-
     <!-- Header -->
     <header>
         <div class="container header-container">
             <div class="logo">
-                <img src="https://cdn-icons-png.flaticon.com/512/2936/2936886.png" alt="SmileCare Logo">
+                <img src="logo.jpg" alt="SmileCare Logo">
                 <h1>Smile<span>Care</span></h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#treatments">Treatments</a></li>
                     <li><a href="#doctors">Doctors</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#clinics">Clinics</a></li>
                     <li><a href="#appointment" class="cta-button">Book Appointment</a></li>
                 </ul>
             </nav>
@@ -40,63 +34,59 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container hero-content">
-            <h2>Your Smile Is Our Priority</h2>
-            <p>Experience world-class dental care with our team of specialists. We provide comprehensive dental services using the latest technology.</p>
-            <a href="#appointment" class="cta-button">Book Your Visit</a>
+            
+            <h1>India's Most Trusted Dental Care</h1>
+            <p>1300+ expert dentists across 600+ clinics</p>
+            <a href="#appointment" class="cta-button">Book Free Consultation</a>
+           
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
+    <!-- Treatments Section -->
+    <section class="treatments" id="treatments">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>We offer a wide range of dental services to keep your smile healthy and beautiful.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dental Checkup">
-                    </div>
-                    <div class="service-content">
-                        <h3>General Dentistry</h3>
-                        <p>Comprehensive dental exams, cleanings, and preventive care to maintain your oral health.</p>
-                    </div>
+            <h2 class="section-title">Our Treatments</h2>
+            <div class="treatments-grid">
+                <div class="treatment-card">
+                    <img src="ab.jpg">
+                    <h3>Root Canal Treatment</h3>
+                    <p>Painless RCT with advanced technology</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cosmetic Dentistry">
-                    </div>
-                    <div class="service-content">
-                        <h3>Cosmetic Dentistry</h3>
-                        <p>Enhance your smile with veneers, teeth whitening, and other cosmetic treatments.</p>
-                    </div>
+                <div class="treatment-card">
+                    <img src="c.jpg" alt="Dental Crowns">
+                    <h3>Dental Crowns</h3>
+                    <p>Restore damaged teeth with crowns</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Orthodontics">
-                    </div>
-                    <div class="service-content">
-                        <h3>Orthodontics</h3>
-                        <p>Straighten your teeth with traditional braces or clear aligners for a perfect smile.</p>
-                    </div>
+                <div class="treatment-card">
+                    <img src="b.jpg" alt="Laser Dentistry">
+                    <h3>Laser Dentistry</h3>
+                    <p>Precision treatment with lasers</p>
+                </div>
+                <div class="treatment-card">
+                    <img src="a.jpg" alt="Clear Aligners">
+                    <h3>Clear Aligners</h3>
+                    <p>Invisible braces for perfect smile</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
+    <!-- Ratings Section -->
+    <section class="ratings">
         <div class="container">
-            <div class="about-content">
-                <div class="about-img">
-                    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Our Clinic">
+            <div class="ratings-grid">
+                <div class="rating-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Rated 4.9/5</p>
+                    <p>3 Lakh+ Happy Patients</p>
                 </div>
-                <div class="about-text">
-                    <h2>About SmileCare Dental</h2>
-                    <p>Founded in 2010, SmileCare Dental has been providing exceptional dental care to our community. Our team of experienced dentists and staff are committed to delivering personalized treatment in a comfortable environment.</p>
-                    <p>We use state-of-the-art technology and follow the highest standards of sterilization and infection control to ensure your safety and comfort.</p>
-                    <a href="#services" class="cta-button">Our Services</a>
+                <div class="rating-card">
+                    <h3>1300+ Expert Dentists</h3>
+                    <p>Specialists for all dental needs</p>
+                </div>
+                <div class="rating-card">
+                    <h3>600+ Clinics</h3>
+                    <p>Across 26 Indian cities</p>
                 </div>
             </div>
         </div>
@@ -105,157 +95,70 @@
     <!-- Doctors Section -->
     <section class="doctors" id="doctors">
         <div class="container">
-            <div class="section-title">
-                <h2>Meet Our Dentists</h2>
-                <p>Our team of highly qualified dental professionals is dedicated to your oral health.</p>
-            </div>
+            <h2 class="section-title">Our Expert Dentists</h2>
             <div class="doctors-grid">
                 <div class="doctor-card">
-                    <div class="doctor-img">
-                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Dr. Sarah Johnson">
-                    </div>
-                    <div class="doctor-info">
-                        <h3>Dr. Sarah Johnson</h3>
-                        <p>General Dentist</p>
-                        <p>DDS, University of Dental Medicine</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
+                    <img src="1.jpg" alt="Dr. Priya Sharma">
+                    <h3>Dr. Priya Sharma</h3>
+                    <p>Endodontist</p>
+                    <p>15+ Years Experience</p>
                 </div>
                 <div class="doctor-card">
-                    <div class="doctor-img">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Dr. Michael Chen">
-                    </div>
-                    <div class="doctor-info">
-                        <h3>Dr. Michael Chen</h3>
-                        <p>Orthodontist</p>
-                        <p>MDS, Orthodontic Specialist</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
+                    <img src="2.jpg" alt="Dr. Raj Patel">
+                    <h3>Dr. Raj Patel</h3>
+                    <p>Orthodontist</p>
+                    <p>12+ Years Experience</p>
                 </div>
                 <div class="doctor-card">
-                    <div class="doctor-img">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Emily Rodriguez">
-                    </div>
-                    <div class="doctor-info">
-                        <h3>Dr. Emily Rodriguez</h3>
-                        <p>Pediatric Dentist</p>
-                        <p>BDS, Pediatric Dentistry</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
+                    <img src="3.jpg" alt="Dr. Ananya Reddy">
+                    <h3>Dr. Ananya Reddy</h3>
+                    <p>Pediatric Dentist</p>
+                    <p>10+ Years Experience</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
+    <!-- Clinics Section -->
+    <section class="clinics" id="clinics">
         <div class="container">
-            <div class="section-title">
-                <h2>Patient Testimonials</h2>
-                <p>Hear what our patients have to say about their experience at SmileCare Dental.</p>
-            </div>
-            <div class="testimonial-slider">
-                <div class="testimonial active">
-                    <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Patient">
-                    <p>"The staff at SmileCare Dental made me feel comfortable from the moment I walked in. Dr. Johnson explained everything clearly and my treatment was painless!"</p>
-                    <div class="testimonial-author">- Jessica M.</div>
-                </div>
-                <div class="testimonial">
-                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Patient">
-                    <p>"I've been coming to SmileCare for years and always receive excellent care. They helped me overcome my dental anxiety with their gentle approach."</p>
-                    <div class="testimonial-author">- Robert T.</div>
-                </div>
-                <div class="testimonial">
-                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Patient">
-                    <p>"The results of my cosmetic treatment exceeded my expectations. My smile has never looked better!"</p>
-                    <div class="testimonial-author">- Samantha K.</div>
-                </div>
-                <div class="slider-controls">
-                    <div class="slider-dot active" data-index="0"></div>
-                    <div class="slider-dot" data-index="1"></div>
-                    <div class="slider-dot" data-index="2"></div>
-                </div>
+            <h2 class="section-title">Find a Clinic Near You</h2>
+            <div class="clinic-search">
+                <select>
+                    <option>Select City</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Bangalore</option>
+                    <option>Hyderabad</option>
+                </select>
+                <button class="cta-button">Find Clinic</button>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <!-- Appointment Section -->
+    <section class="appointment" id="appointment">
         <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-                <p>We'd love to hear from you. Schedule an appointment or ask us any questions.</p>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Our Information</h3>
-                    <div class="contact-details">
-                        <div>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>123 Dental Avenue, Smile City, SC 12345</p>
-                        </div>
-                        <div>
-                            <i class="fas fa-phone"></i>
-                            <p>(123) 456-7890</p>
-                        </div>
-                        <div>
-                            <i class="fas fa-envelope"></i>
-                            <p>info@smilecare.com</p>
-                        </div>
-                        <div>
-                            <i class="fas fa-clock"></i>
-                            <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
-                        </div>
-                    </div>
-                    <div class="social-links-footer">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <div class="appointment-container">
+                <div class="appointment-info">
+                    <h2>Book Your Appointment</h2>
+                    <p>Get in touch with our dental experts</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                        <p><i class="fas fa-envelope"></i> info@smilecare.com</p>
                     </div>
                 </div>
-                <div class="contact-form" id="appointment">
-                    <h3>Book an Appointment</h3>
-                    <form id="appointmentForm">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Service Needed</label>
-                            <select id="service" name="service" required>
-                                <option value="">Select a service</option>
-                                <option value="general">General Dentistry</option>
-                                <option value="cosmetic">Cosmetic Dentistry</option>
-                                <option value="orthodontics">Orthodontics</option>
-                                <option value="pediatric">Pediatric Dentistry</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message"></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Book Appointment</button>
-                    </form>
-                </div>
+                <form class="appointment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="">Select Treatment</option>
+                        <option>Root Canal</option>
+                        <option>Dental Implants</option>
+                        <option>Braces</option>
+                    </select>
+                    <button type="submit" class="cta-button">Book Now</button>
+                </form>
             </div>
         </div>
     </section>
@@ -263,42 +166,27 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-container">
+            <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>SmileCare Dental</h3>
-                    <p>Providing exceptional dental care with compassion and expertise since 2010.</p>
+                    <img src="logo.jpg" alt="Logo" class="footer-logo">
+                    <p>India's most trusted dental care provider</p>
                 </div>
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#doctors">Our Dentists</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#treatments">Treatments</a></li>
+                        <li><a href="#doctors">Doctors</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">General Dentistry</a></li>
-                        <li><a href="#">Cosmetic Dentistry</a></li>
-                        <li><a href="#">Orthodontics</a></li>
-                        <li><a href="#">Pediatric Dentistry</a></li>
-                        <li><a href="#">Emergency Care</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> 123 Dental Avenue</li>
-                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
-                        <li><i class="fas fa-envelope"></i> info@smilecare.com</li>
-                    </ul>
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Dental Street, Mumbai</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 SmileCare Dental Clinic. All Rights Reserved.</p>
+                <p>&copy; 2023 SmileCare Dental. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
