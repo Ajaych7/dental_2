@@ -110,8 +110,8 @@
                     <p>12+ Years Experience</p>
                 </div>
                 <div class="doctor-card">
-                    <img src="3.jpg" alt="Dr. Ananya Reddy">
-                    <h3>Dr. Ananya Reddy</h3>
+                    <img src="3.jpg" alt="Dr. Sachin Vasekar">
+                    <h3>Dr. Sachin Vasekar</h3>
                     <p>Pediatric Dentist</p>
                     <p>10+ Years Experience</p>
                 </div>
@@ -194,3 +194,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
