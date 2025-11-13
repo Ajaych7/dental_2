@@ -104,8 +104,8 @@
                     <p>15+ Years Experience</p>
                 </div>
                 <div class="doctor-card">
-                    <img src="2.jpg" alt="Dr. Raj Patel">
-                    <h3>Dr. Raj Patel</h3>
+                    <img src="2.jpg" alt="Dr.Saurabh Bhongle">
+                    <h3>Dr.Saurabh Bhongle</h3>
                     <p>Orthodontist</p>
                     <p>12+ Years Experience</p>
                 </div>
@@ -194,4 +194,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
